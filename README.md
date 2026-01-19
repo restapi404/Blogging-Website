@@ -20,7 +20,7 @@ A full-stack blogging platform where users can register, login, and create, edit
 **Frontend:** Next.js, React, Tailwind CSS  
 **Backend:** Node.js, Express, MongoDB, JWT  
 **Deployment:** Vercel, Render, MongoDB Atlas  
----
+
 
 ## Environment Variables:
 
