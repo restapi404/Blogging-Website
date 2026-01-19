@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "What Really Happens When You Type a URL in Your Browser?",
+    "summary": "Explore the step-by-step journey from entering a URL to seeing a website, covering DNS, TCP, TLS, and HTTP.",
+    "author": "Rithu",
+    "date": "2025-08-30",
+    "image": "/url.png",
+    "tags": ["Web Development", "Networking", "Fundamentals"],
+    "content": "# What Really Happens When You Type a URL in Your Browser?\n\nHave you ever wondered what happens in the milliseconds between pressing enter and a website appearing? It's a complex dance of protocols and systems. First, your browser asks a DNS (Domain Name System) server to translate the human-readable URL (like google.com) into an IP address.\n\nNext, your browser initiates a TCP (Transmission Control Protocol) handshake to establish a secure, reliable connection with that IP address. If the site uses HTTPS, a TLS handshake follows to set up a secure, encrypted tunnel. Only then is the actual HTTP request sent to the server, which sends back the website's data in an HTTP response.\n\n**Takeaway:** The journey of a URL is a great illustration of how the internet works. Understanding these fundamental steps is key to debugging network issues and appreciating the complexity behind a seemingly simple action."
+  },
+  {
+    "id": 2,
+    "title": "Why Backend Developers Should Learn Database Indexing",
+    "summary": "Learn why database indexing is a must-have skill for backend developers and how it can boost app performance.",
+    "author": "Rithu",
+    "date": "2025-08-30",
+    "image": "/indexing.png",
+    "tags": ["Backend", "Databases", "SQL"],
+    "content": "# Why Backend Developers Should Learn Database Indexing\n\nWhen building applications, performance issues often arise not from the server code but from the way databases are queried. One of the most overlooked performance boosters is database indexing. Indexes work like the index in a book—instead of scanning every page, the database can jump straight to the relevant data. For example, searching a table of 1M users without an index might take seconds, but with an index on email, the same query can complete in milliseconds.\n\nHowever, indexing comes with trade-offs. Inserting or updating rows takes longer because the index must be updated too. That’s why blindly indexing every column is a bad idea.\n\n**Takeaway:** A good backend developer doesn’t just know how to write queries but also when to optimize them. Indexes can be your best friend for reads, but you must balance them carefully with write-heavy operations."
+  },
+  {
+    "id": 3,
+    "title": "Git Basics Every Developer Should Master",
+    "summary": "A practical guide to the Git concepts every developer needs: commits, branching, and merging.",
+    "author": "Rithu",
+    "date": "2025-08-30",
+    "image": "/git.png",
+    "tags": ["Git", "Version Control", "Collaboration"],
+    "content": "# Git Basics Every Developer Should Master\n\nGit is more than just a tool; it's the backbone of modern software collaboration. The most fundamental concept is the commit, which is essentially a snapshot of your project at a specific moment in time. Once you understand committing, you can master branching, which allows you to work on new features without disrupting the main codebase.\n\nYou then use merging to combine your changes back into the main branch. The power of Git lies in this ability to track changes, revert to previous versions, and allow multiple developers to work on the same project without stepping on each other's toes.\n\n**Takeaway:** Version control is a non-negotiable skill. Mastering Git basics like committing, branching, and merging will save you from countless headaches and make you a more effective team member."
+  },
+  {
+    "id": 4,
+    "title": "The Magic of CSS Flexbox and Grid in Modern Layouts",
+    "summary": "Discover how Flexbox and Grid revolutionized web layouts compared to old-school floats and tables.",
+    "author": "Rithu",
+    "date": "2025-08-30",
+    "image": "/css.png",
+    "tags": ["Web Development", "Frontend", "CSS"],
+    "content": "# The Magic of CSS Flexbox and Grid in Modern Layouts\n\nRemember the old days of using `<table>` tags and complicated floats just to create a basic webpage layout? Thankfully, those days are over. CSS Flexbox and Grid have revolutionized frontend development. Flexbox is perfect for one-dimensional layouts (e.g., aligning items in a row or a column), making things like navigation bars a breeze to build.\n\nCSS Grid, on the other hand, excels at two-dimensional layouts, allowing you to create complex, responsive page structures with minimal code. They replaced clumsy hacks with a powerful, intuitive system for creating adaptable and consistent designs.\n\n**Takeaway:** Modern web layouts are built on Flexbox and Grid. Ditching old methods and mastering these two CSS technologies will make you a much more efficient and capable frontend developer."
+  },
+  {
+    "id": 5,
+    "title": "The Rise of Edge AI: Why AI Models Are Moving Closer to You",
+    "summary": "Understand the shift toward Edge AI, its benefits, and why it's the next frontier for machine learning.",
+    "author": "Rithu",
+    "date": "2025-08-30",
+    "image": "/edgeai.png",
+    "tags": ["AI/ML", "Edge Computing", "Technology Trends"],
+    "content": "# The Rise of Edge AI: Why AI Models Are Moving Closer to You\n\nTraditionally, AI models have been hosted in massive cloud servers. But with the boom of IoT devices and real-time decision-making, we’re seeing a major shift toward Edge AI — running AI models directly on local devices. Take self-driving cars as an example. They cannot afford a 200ms delay waiting for the cloud to process “Is this a stop sign?” The decision must be made instantly, on-device. That’s the promise of edge AI: low latency, privacy preservation, and offline capability. Tools like TensorFlow Lite and ONNX Runtime are making it easier to deploy lightweight models on smartphones, drones, and even microcontrollers.\n\n**Takeaway:** The future of AI isn’t just in the cloud—it’s everywhere. Developers entering AI today should explore how to compress, optimize, and deploy models to the edge."
+  }
+]
