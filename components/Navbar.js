@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="bg-[#4A0000] dark:bg-[#08081C] text-white px-6 py-4 flex flex-col md:flex-row md:justify-between md:items-center shadow transition-colors duration-300">
       <div>
         <div className="text-2xl font-bold">
-          <Link href="/">Blog Showcase</Link>
+          <Link href="/">Bitwise Blog</Link>
         </div>
         <div className="text-[#EDE587] text-sm mt-1">
           <Typewriter
