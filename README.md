@@ -14,14 +14,12 @@ A full-stack blogging platform where users can register, login, and create, edit
 - Protected routes
 - Responsive UI
 - REST API integration
-
 ---
 
 ## Tech Stack
 **Frontend:** Next.js, React, Tailwind CSS  
 **Backend:** Node.js, Express, MongoDB, JWT  
 **Deployment:** Vercel, Render, MongoDB Atlas  
-
 ---
 
 ## Environment Variables:
@@ -46,9 +44,12 @@ npm run dev
 ```
 
 ### Backend
+```bash
 cd backend
 npm install
 npm start
+```
+---
 
 ## Contribution
 Feel free to fork, submit issues, or open pull requests to improve the project.
