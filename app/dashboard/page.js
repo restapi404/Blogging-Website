@@ -17,12 +17,6 @@ export default function DashboardPage() {
     }
   }, [user, loading, router]);
 
-  useEffect(() => {
-    if (user) {
-      fetchUserPosts();
-    }
-  }, [user]);
-
   const fetchUserPosts = async () => {
     try {
       const allPosts = await postsAPI.getAll(1, 1000);
@@ -37,6 +31,13 @@ export default function DashboardPage() {
       setPostsLoading(false);
     }
   };
+
+  useEffect(() => {
+    if (user) {
+      fetchUserPosts();
+    }
+  }, [user, fetchUserPosts]);
+
 
   const handleLogout = () => {
     logout();
@@ -103,7 +104,7 @@ export default function DashboardPage() {
           ) : posts.length === 0 ? (
             <div className="text-center py-8">
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                You haven't published any posts yet.
+                You haven&apos;t published any posts yet.
               </p>
               <Link
                 href="/blog/create"
